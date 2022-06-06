@@ -5,6 +5,7 @@ public class Product implements Comparable<Product> {
     private double rating;
 
     public Product(String name, double rating) {
+        super();
         this.name = name;
         this.rating = rating;
     }
@@ -19,11 +20,11 @@ public class Product implements Comparable<Product> {
 
     @Override
     public String toString() {
-        return this.getName() + ": " + this.getRating();
+        return getName() + ": " + getRating();
     }
 
     @Override
     public int compareTo(Product product) {
-        return Double.compare(this.getRating(), product.getRating());
+        return Double.compare(getRating(), product.getRating());
     }
 }
