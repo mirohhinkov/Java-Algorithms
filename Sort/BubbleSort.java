@@ -15,6 +15,10 @@ public class BubbleSort {
         System.out.println("Array of Doubles:");
         double[] doubleArray = { 1.2, -5.3, 50.2, 12.7, -50.55 };
         System.out.println(Arrays.toString(bubbleSort(doubleArray)));
+        
+        // Sorting Strings
+        String[] str = { "A", "Z", "B", "Y"};
+        System.out.println(Arrays.toString(bubbleSort(str)));
 
         // Sorting Objects (have to implement Comparable interface)
         Product[] productsArray = {
