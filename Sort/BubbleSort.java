@@ -16,7 +16,7 @@ public class BubbleSort {
         double[] doubleArray = { 1.2, -5.3, 50.2, 12.7, -50.55 };
         System.out.println(Arrays.toString(bubbleSort(doubleArray)));
 
-        // Sorting Objects (have too implement Comparable interface)
+        // Sorting Objects (have to implement Comparable interface)
         Product[] productsArray = {
                 new Product("Good one", 4.5),
                 new Product("Very bad", 1.2),
