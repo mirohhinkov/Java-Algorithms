@@ -1,11 +1,10 @@
 package algorithms.sort;
 
 public class Product implements Comparable<Product> {
-    String name;
-    double rating;
+    private String name;
+    private double rating;
 
     public Product(String name, double rating) {
-        super();
         this.name = name;
         this.rating = rating;
     }
@@ -20,7 +19,7 @@ public class Product implements Comparable<Product> {
 
     @Override
     public String toString() {
-        return this.getName() + ": " + this.rating;
+        return this.getName() + ": " + this.getRating();
     }
 
     @Override
